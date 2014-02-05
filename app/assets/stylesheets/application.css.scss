@@ -1,0 +1,194 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body{
+	background: #fff;
+	font-family: arial,sans-serif;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+}
+ 
+.navbar1{
+	width: 100%;
+	height: 60px;
+	vertical-align: middle;
+}
+
+.nav1{
+	float: right;
+	text-align: center;
+	background: white;
+	margin: 15px 0;
+	margin-right: 30px;
+}
+
+.nav1 li{
+	padding-left: 11px;
+}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	veritcal-align: middle;
+}
+
+li{
+	display: inline;	
+}
+
+.nav-link1{
+	color: #404040;
+	text-decoration: none;
+}
+
+.nav-link1:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+#box-matrix{
+	color: transparent;
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	background-image: url('box_matrix.png');
+	margin: 0 3px 0 3px;
+}
+
+#sign-in{
+	font-weight: bold;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	background: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	text-align: center;
+}
+
+#sign-in a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: 69px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar2{
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	position: fixed;
+	margin-top: 100px;
+	width: 100%;
+	bottom: 0;
+}
+
+.nav2{
+	background: #f2f2f2;
+	bottom: 0;
+}
+
+.nav-link2{
+	color: #777;
+	text-decoration: none;
+}
+
+.nav-link2:hover{
+	text-decoration: underline;
+}
+
+#left-links{
+	float: left;
+	color: red;
+}
+
+#left-links li{
+	padding-left: 27px;
+}
+
+#right-links{
+	float: right;
+}
+
+#right-links li{
+	padding-right: 27px;
+}
+
+.title{
+	text-align: center;
+	margin: 20px;
+	padding-top:112px
+}
+
+.content-box{
+	width: 570px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#input-box{
+	vertical-align: top;
+	width: 570px;
+	height: 28px;
+	border: 1px solid #d5d5d5;
+	padding: 0;
+}
+
+.buttons{
+	position: relative;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button1{
+	display: inline-block;
+	font: bold 11px Arial, sans-serif;
+	color: #444;
+	font-weight: bold;	
+	background: #f2f2f2;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+	width: 98px;
+	height: 29px;
+	padding: 0px 8px;
+	margin: 16px 8px;
+	border-radius: 2px;
+}
+
+#button2{
+	display: inline-block;
+	font: bold 11px Arial, sans-serif;
+	color: #444;
+	font-weight: bold;	
+	background: #f2f2f2;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+	width: 114px;
+	height: 29px;
+	padding: 0px 8px;
+	margin: 16px 8px;
+	border-radius: 2px;
+}
+
+.voice-img{
+	display: inline-block;
+}

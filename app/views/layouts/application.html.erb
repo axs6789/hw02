@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GoogleHome</title>
+  <title>Google</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="navbar1">
+		<ul class="nav1">
+			<li><a class="nav-link1" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX%26partnerid%3Dogpy0">+You</a></li>
+			<li><a class="nav-link1" href="https://mail.google.com/intl/en/mail/help/about.html">Gmail</a></li>
+			<li><a class="nav-link1" href="https://www.google.com/imghp?hl=en&tab=wi&ei=tMnuUq2aLve_sASv2oD4Cw&ved=0CAQQqi4oAg">Images</a></li>
+			<li>
+				<div id="box-matrix">
+					a
+				</div>
+			</li>
+			<li>
+				<div id="sign-in">
+					<a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/">Sign in</a>
+				</div>
+			</li>
+		</ul>
+	</div>
 
 <%= yield %>
 
+	<div class="navbar2">
+		<ul class="nav2">
+				<span id="left-links">
+					<li><a class="nav-link2" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+					<li><a class="nav-link2" href="https://www.google.com/services/?fg=1">Business</a></li>
+					<li><a class="nav-link2" href="https://www.google.com/intl/en/about/">About</a></li>
+				</span>
+				<span id="right-links">
+					<li><a class="nav-link2" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+					<li class="nav-link2">Settings</li>
+				</span>
+		</ul>
+	</div>
 </body>
 </html>
