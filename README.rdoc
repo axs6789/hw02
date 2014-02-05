@@ -1,28 +1,41 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link to Heroku page:
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Project Ideas:
+
+Idea #1:
+My first idea is to create some sort of personal organizer app. In order to stay organized, I currently use 3 methods of organization. First, I have a list of
+all of my school assignments and deadlines organized by course. Second, I have a to-do list for other miscellaneous things that I need to do. Third, when I am
+particularly busy, I like to use a calendar to organize all of my deadlines by date. I find that managing all 3 of these forms of organization can be tedious and
+time consuming. Therefore, I would like to create a personal app that puts all of these forms of organization together and is specifically designed to coordinate
+this organization efficiently.
+
+Idea #2:
+My second idea is to create a stopwatch managing application. I developed a case of tendonitis in my elbows and knees, and I follow 2 stretching programs to
+rehabilitate my joints. Because I got sick of counting on my own, I use a stopwatch to time the duration of my stretches. Currently, I have to frequently reset
+the stopwatch because it gets annoying having to mentally keep track of the timing and because many stretching exercises differ in duration. I would like to
+create an app that allows you to pre-set various sequences of timing and save the sequences for future use.
+
+Idea #3:
+My third idea is to create an app that facilitates the process of organizing activities with my friends. I feel like every time I want to organize an activity
+with my friends, I go through the same process. I find out if my friends are interested in an activity, find out everyone’s availability, and select the time
+that works best for everyone. Although I do not currently have a concrete idea, I feel like I can create an app whose design allows the user to complete this
+repetitive process more efficiently.
+
+
+What I did:
+1. Recreated the Google homepage using HTML and CSS.
+2. Came up with 3 project ideas.
+
+
+What problems I had:
+1. Initially, I had trouble properly organizing and structuring my HTML and CSS code because I had hardly used HTML and CSS in the past.
+I solved this problem by referencing the HTML and CSS guide that Jenny provided us and by carefully looking at Google’s HTML and CSS code.
+
+2. There were several times when I trouble debugging unexpected behavior caused by my misunderstanding of HTML and CSS concepts.
+I managed to correct most of these mistakes by doing some research online.
+
+3. One problem that frequently came up was formatting my home page correctly.
+To solve this issue, I primarily referenced Google’s CSS code and asked Jenny for advice on more specific tasks.
